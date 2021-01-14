@@ -25,7 +25,8 @@ SECRET_KEY = '#8=cr0%sk2=(yspzosu2*l)(4=4f_b3*fnby2q%tse9qg5dcax'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['alnkib.com','www.alnkib.com',]
+ALLOWED_HOSTS = ['alnkib.com','www.alnkib.com','127.0.0.1',]#server
+#ALLOWED_HOSTS = ['127.0.0.1',]
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'website',
 ]
 
 MIDDLEWARE = [
